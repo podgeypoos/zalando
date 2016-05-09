@@ -3,6 +3,10 @@
     <title>Home</title>
 
 </head>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-2.2.3.min.js"
+        integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="../node_modules/angular/angular.min.js"></script>
 <script type="text/javascript">
     angular.module('Zalando', [])
@@ -11,50 +15,75 @@
                 $scope.uploadFile = function () {
 
                     var file = $scope.useCase;
-                    console.log("uploading: "+file);
                     var uploadUrl = "/uploads";
                     var fd = new FormData();
                     fd.append('file', file);
 
                     $http.post(uploadUrl, fd, {
-                        transformRequest: angular.identity,
-                        headers: {'Content-Type': undefined},
-                        enctype: 'multipart/form-data'
+                                transformRequest: angular.identity,
+                                headers: {'Content-Type': undefined},
+                                enctype: 'multipart/form-data'
+                            }
+                            )
+                            .success(function (data, status) {
+                                $scope.results = data;
+                            })
+                            .error(function () {
+                                console.log("error!!");
+                            });
+                }
+                ;
+
+            }])
+            .directive('fileModel', ['$parse', function ($parse) {
+                return {
+                    restrict: 'A',
+                    link: function (scope, element, attrs) {
+                        var model = $parse(attrs.fileModel);
+                        var modelSetter = model.assign;
+
+                        element.bind('change', function () {
+                            scope.$apply(function () {
+                                modelSetter(scope, element[0].files[0]);
+                            });
+                        });
                     }
-                )
-                    .success(function () {
-                        console.log("success!!");
-                    })
-                    .error(function () {
-                        console.log("error!!");
-                    });
-    }
-    ;
-
-    }])
-    .directive('fileModel', ['$parse', function ($parse) {
-        return {
-            restrict: 'A',
-            link: function (scope, element, attrs) {
-                var model = $parse(attrs.fileModel);
-                var modelSetter = model.assign;
-
-                element.bind('change', function () {
-                    scope.$apply(function () {
-                        modelSetter(scope, element[0].files[0]);
-                    });
-                });
-            }
-        };
-    }]);
+                };
+            }]);
 
 </script>
 
 <body ng-app="Zalando">
-<h1>Zalando Test</h1>
-<section data-ng-controller="PaintTestCtrl">
-    <input type="file" name="useCase" file-model="useCase"/><br><br>
-    <button ng-click="uploadFile()">Upload</button>
-</section>
+<div class="row">
+    <div class="col-xs-12 col-md-12">
+        <h1><p class="text-center">
+            Zalando code test</p></h1>
+    </div>
+</div>
+<div class="row">
+    <div data-ng-controller="PaintTestCtrl">
+        <div class="col-xs-12 col-md-12">
+            <div class="col-xs-12 col-md-12">
+                <h2>Solution</h2>
+            </div>
+            <div class="col-xs-12 col-md-12">
+                <input type="file" name="useCase" file-model="useCase"/>
+            </div>
+            <div class="col-xs-12 col-md-12">
+                <br>
+                <button ng-click="uploadFile()" type="button" class="btn btn-primary">Upload</button>
+            </div>
+            <div class="col-xs-12 col-md-12">
+                <br>
+                <div class="card">
+                    <ul class="list-group list-group-flush" data-ng-repeat="entries in results">
+                        <li class="list-group-item">{{entries}}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>

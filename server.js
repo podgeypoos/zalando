@@ -89,7 +89,7 @@ function processEachBatch() {
     }
 }
 
-var readFile = function (path, callback) {
+var readFile = function (path) {
     var deferred = Q.defer();
     fs.readFile(path, function (err, data) {
         if (err) {
@@ -100,7 +100,6 @@ var readFile = function (path, callback) {
     })
     return deferred.promise;
 };
-
 
 app.get('/', function (req, res) {
 
@@ -126,11 +125,9 @@ app.post('/uploads', upload.single('file'), function (req, res, next) {
            return results;
         })
         .then(function(result){
-            console.log(result)
+            console.log(result);
+            res.status(200).send(result).end();
         })
-
-        res.send();
-        res.status(200).end();
 });
 
 app.listen(8080, function () {
