@@ -125,7 +125,6 @@ app.post('/uploads', upload.single('file'), function (req, res, next) {
            return results;
         })
         .then(function(result){
-            console.log(result);
             res.status(200).send(result).end();
         })
 });

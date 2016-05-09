@@ -28,6 +28,17 @@ describe('api', function() {
                     result.should.be.a.String().and.match('["use case 0: 1,0,0,0,0","use case 1: Impossible"]');
                     done();
                 });
+        });
+        it('should fail when you pass a file with invalid characters', function(done){
+            request(url)
+                .post('/uploads')
+                .attach('file', './test/failtest.txt')
+                .end(function(err, res) {
+
+                    result =res.text;
+                    result.should.be.a.String().and.match('[]');
+                    done();
+                });
         })
     });
 });

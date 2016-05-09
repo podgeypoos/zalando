@@ -2,66 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94f7ebe7-f1df-42a2-b9a9-8b4055410d9e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462801089691" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462801179842" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462801212854" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462809696789" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462809727154" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462809777314" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462809983870" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462809997673" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462810054462" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462810097992" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462810111095" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462810121873" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462810159591" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462810208171" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462810549443" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462810574578" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462810588024" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462810641541" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462810678762" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462810702233" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462810740701" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462810766563" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462810800376" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462810808076" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462810904939" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462810919467" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462810948326" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462810974207" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462810986197" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462811047390" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462811057007" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462811058937" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462811060805" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462811062790" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462811093038" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462811094750" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462811095195" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462811098938" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462811099186" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462811099388" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462811099610" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462811120220" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462811120602" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462811122971" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462811123188" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462811123419" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462811123597" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462811123860" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462811192251" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462811195267" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462811355075" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462811423297" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/file-1462811436205" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/failtest.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test.js" afterPath="$PROJECT_DIR$/test/test.js" />
     </list>
     <ignored path="ZalandoCodeTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -99,18 +43,8 @@
       <file leaf-file-name="test.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21052632">
-              <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.69034094">
+              <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -120,14 +54,15 @@
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="122" column="13" selection-start-line="122" selection-start-column="13" selection-end-line="122" selection-end-column="13" />
+              <caret line="117" column="10" selection-start-line="117" selection-start-column="10" selection-end-line="117" selection-end-column="10" />
               <folding>
                 <element signature="e#167#376#0" expanded="false" />
                 <element signature="n#!!block;n#cleanUpFile#0" expanded="false" />
                 <element signature="n#!!block;n#processEachBatch#0" expanded="false" />
                 <element signature="e#1414#2207#0" expanded="false" />
                 <element signature="e#2508#2565#0" expanded="false" />
-                <element signature="e#3241#3285#0" expanded="false" />
+                <element signature="e#2828#3081#0" expanded="false" />
+                <element signature="e#3208#3252#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -155,9 +90,10 @@
         <option value="$PROJECT_DIR$/public/app.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/test/test.txt" />
+        <option value="$PROJECT_DIR$/test/failtest.txt" />
         <option value="$PROJECT_DIR$/test/test.js" />
+        <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
   </component>
@@ -317,7 +253,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="23" width="1231" height="712" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24958678" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -325,7 +261,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4090909" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36026937" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -380,7 +316,8 @@
             <element signature="n#!!block;n#processEachBatch#0" expanded="false" />
             <element signature="e#1414#2207#0" expanded="false" />
             <element signature="e#2508#2565#0" expanded="false" />
-            <element signature="e#3241#3285#0" expanded="false" />
+            <element signature="e#2828#3081#0" expanded="false" />
+            <element signature="e#3208#3252#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -407,7 +344,8 @@
             <element signature="n#!!block;n#processEachBatch#0" expanded="false" />
             <element signature="e#1414#2207#0" expanded="false" />
             <element signature="e#2508#2565#0" expanded="false" />
-            <element signature="e#3241#3285#0" expanded="false" />
+            <element signature="e#2828#3081#0" expanded="false" />
+            <element signature="e#3208#3252#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -434,7 +372,8 @@
             <element signature="n#!!block;n#processEachBatch#0" expanded="false" />
             <element signature="e#1414#2207#0" expanded="false" />
             <element signature="e#2508#2565#0" expanded="false" />
-            <element signature="e#3241#3285#0" expanded="false" />
+            <element signature="e#2828#3081#0" expanded="false" />
+            <element signature="e#3208#3252#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -474,29 +413,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="122" column="13" selection-start-line="122" selection-start-column="13" selection-end-line="122" selection-end-column="13" />
-          <folding>
-            <element signature="e#167#376#0" expanded="false" />
-            <element signature="n#!!block;n#cleanUpFile#0" expanded="false" />
-            <element signature="n#!!block;n#processEachBatch#0" expanded="false" />
-            <element signature="e#1414#2207#0" expanded="false" />
-            <element signature="e#2508#2565#0" expanded="false" />
-            <element signature="e#3241#3285#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/supertest/test/supertest.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.13312693">
@@ -505,10 +421,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.062111802">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/failtest.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="27" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="117" column="10" selection-start-line="117" selection-start-column="10" selection-end-line="117" selection-end-column="10" />
+          <folding>
+            <element signature="e#167#376#0" expanded="false" />
+            <element signature="n#!!block;n#cleanUpFile#0" expanded="false" />
+            <element signature="n#!!block;n#processEachBatch#0" expanded="false" />
+            <element signature="e#1414#2207#0" expanded="false" />
+            <element signature="e#2508#2565#0" expanded="false" />
+            <element signature="e#2828#3081#0" expanded="false" />
+            <element signature="e#3208#3252#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21052632">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.69034094">
+          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
           <folding />
         </state>
       </provider>
