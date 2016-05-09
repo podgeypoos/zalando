@@ -1,0 +1,15 @@
+{
+  "name": "zalando-code-test",
+  "version": "1.0.0",
+  "description": "zalando code test",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Podge O'Brien",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "multer": "^1.0.5"
+  }
+}

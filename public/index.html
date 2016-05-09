@@ -1,0 +1,60 @@
+<html>
+<head>
+    <title>Home</title>
+
+</head>
+<script type="text/javascript" src="../node_modules/angular/angular.min.js"></script>
+<script type="text/javascript">
+    angular.module('Zalando', [])
+            .controller('PaintTestCtrl', ['$scope', '$http', function ($scope, $http) {
+
+                $scope.uploadFile = function () {
+
+                    var file = $scope.useCase;
+                    console.log("uploading: "+file);
+                    var uploadUrl = "/uploads";
+                    var fd = new FormData();
+                    fd.append('file', file);
+
+                    $http.post(uploadUrl, fd, {
+                        transformRequest: angular.identity,
+                        headers: {'Content-Type': undefined},
+                        enctype: 'multipart/form-data'
+                    }
+                )
+                    .success(function () {
+                        console.log("success!!");
+                    })
+                    .error(function () {
+                        console.log("error!!");
+                    });
+    }
+    ;
+
+    }])
+    .directive('fileModel', ['$parse', function ($parse) {
+        return {
+            restrict: 'A',
+            link: function (scope, element, attrs) {
+                var model = $parse(attrs.fileModel);
+                var modelSetter = model.assign;
+
+                element.bind('change', function () {
+                    scope.$apply(function () {
+                        modelSetter(scope, element[0].files[0]);
+                    });
+                });
+            }
+        };
+    }]);
+
+</script>
+
+<body ng-app="Zalando">
+<h1>Zalando Test</h1>
+<section data-ng-controller="PaintTestCtrl">
+    <input type="file" name="useCase" file-model="useCase"/><br><br>
+    <button ng-click="uploadFile()">Upload</button>
+</section>
+</body>
+</html>
