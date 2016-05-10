@@ -2,7 +2,7 @@ var should = require('should');
 var assert = require('assert');
 var request = require('supertest');
 
-var files = require('../files');
+var paintFactory = require('../paintFactory');
 
 describe('api', function () {
     var url = 'http://localhost:8080';
@@ -42,12 +42,31 @@ describe('api', function () {
                 });
         })
     });
-    describe('file cleanup', function () {
-        it('should return ', function (done) {
-            result = files.cleanUpFile("1 1 1 ");
+    describe('Paint factory', function () {
+        it('should return 111 when given 1 1 1', function (done) {
+            result = paintFactory.cleanUpFile("1 1 1 ");
             result.should.be.eql('111');
-
             done();
         });
-    })
+        it(' should return 1,0,0,0,0 when passed a batch of [ [ [ 0, 1 ] ], [ [ 0, 0 ], [ 1, 0 ] ], [ [ 4, 0 ] ] ]', function (done) {
+            batchs=[ [ [ 0, 1 ] ], [ [ 0, 0 ], [ 1, 0 ] ], [ [ 4, 0 ] ] ];
+            numberOfPaintColors=5;
+            result = paintFactory.processBatch(numberOfPaintColors, batchs);
+            result.should.be.eql([ 1, 0, 0, 0, 0 ]);
+            done();
+        });
+        it(' should return Impossible when passed a batch of [ [ [ 0, 0 ] ], [ [ 0, 1 ] ] ]', function (done) {
+            batchs=[ [ [ 0, 0 ] ], [ [ 0, 1 ] ] ];
+            numberOfPaintColors=1;
+            result = paintFactory.processBatch(numberOfPaintColors, batchs);
+            result.should.be.eql('Impossible');
+            done();
+        });
+        it(' should return a zerod out array of size 5 when given a size of 5', function (done) {
+            result = paintFactory.createEmptyBatch(5);
+            result.should.be.eql([0, 0, 0, 0, 0]);
+            done();
+        });
+    });
+
 });
