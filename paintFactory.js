@@ -1,25 +1,9 @@
 module.exports = {
-    readFile : function (path) {
-        var deferred = Q.defer();
-        fs.readFile(path, function (err, data) {
-            if (err) {
-                deferred.reject(err);
-            } else {
-                deferred.resolve(data);
-            }
-        })
-        return deferred.promise;
-    },
-    cleanUpFile : function(buffer) {
+    cleanUpFile: function (buffer) {
         var array = buffer.toString().replace(/(\r\n|\n|\r)/gm, "").replace(/ /g, '');
         return array;
     },
-    processBatch: function(numberOfPaintColors, batchs){
-
-        matted = [];
-        for (j = 0; j < numberOfPaintColors; j++) {
-            matted.push(0);
-        }
+    processBatch: function (numberOfPaintColors, batchs, matted) {
 
         var satisfied = false;
         var getMeOutOfHere = false;
@@ -58,11 +42,10 @@ module.exports = {
 
         }
     },
-    createEmptyBatch: function(numberOfPaintColors){
-        matted = [];
+    createEmptyBatch: function (matted,numberOfPaintColors) {
         for (j = 0; j < numberOfPaintColors; j++) {
             matted.push(0);
         }
-        return matted;
+        return matted
     }
 };

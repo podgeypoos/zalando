@@ -1,5 +1,6 @@
 var express = require("express");
 var multer = require('multer');
+var Q = require('q');
 var fs = require('fs');
 var app = express();
 var storage = multer.diskStorage({
@@ -17,16 +18,25 @@ var paintFactory = require('./paintFactory');
 app.use('/node_modules', express.static(__dirname + '/node_modules'));
 
 var upload = multer({storage: storage});
+var index = 0;
+var array=[];
 
-
+function readFile(path) {
+    var deferred = Q.defer();
+    fs.readFile(path, function (err, data) {
+        if (err) {
+            deferred.reject(err);
+        } else {
+            deferred.resolve(data);
+        }
+    })
+    return deferred.promise;
+}
 
 function processUseCase() {
-    var index = 0;
-    var array=[];
+    numberOfPaintColors= array[++index];
+    numberOfCustomers  = array[++index];
 
-    matted = createEmptyBatch(numberOfPaintColors);
-
-    numberOfCustomers = array[++index];
     batchs = [];
 
     for (k = 0; k < numberOfCustomers; k++) {
@@ -43,8 +53,14 @@ function processUseCase() {
         batchs.push(s);
     }
 
-    result = paintFactory.processUseCase(numberOfPaintColors,batchs);
+    matted = [];
+
+    matted = paintFactory.createEmptyBatch(matted,numberOfPaintColors)
+    console.log(matted)
+    result = paintFactory.processBatch(numberOfPaintColors,batchs,matted);
+
     return result;
+
 }
 
 app.get('/', function (req, res) {
@@ -55,19 +71,23 @@ app.get('/', function (req, res) {
 
 app.post('/uploads', upload.single('file'), function (req, res, next) {
 
-    paintFactory.readFile(req.file.path)
+    readFile(req.file.path)
         .then(function(result){
-            return files.cleanUpFile(result.toString());
+            result= paintFactory.cleanUpFile(result.toString());
+            return result;
         })
         .then(function(result){
             array=result;
+            var results = [];
             numberOfTestCases = array[index];
             for (i = 0; i < numberOfTestCases; i++) {
                 results.push("use case " + i + ": " + processUseCase());
             }
+
            return results;
         })
         .then(function(result){
+            index=0; //reset counter for when new file uploaded
             res.status(200).send(result).end();
         })
 });
