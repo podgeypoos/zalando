@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94f7ebe7-f1df-42a2-b9a9-8b4055410d9e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/paintFactory.js" afterPath="$PROJECT_DIR$/paintFactory.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ZalandoCodeTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,10 +24,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.67302454">
+            <state vertical-scroll-proportion="-9.148149">
               <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
               <folding>
                 <element signature="e#166#375#0" expanded="false" />
@@ -47,12 +47,24 @@
       <file leaf-file-name="paintFactory.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/paintFactory.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+            <state vertical-scroll-proportion="-2.7777777">
+              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding>
                 <element signature="e#54#170#0" expanded="false" />
                 <element signature="e#237#1351#0" expanded="false" />
+                <element signature="e#432#1345#0" expanded="false" />
+                <element signature="e#1413#1532#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -61,15 +73,15 @@
         <entry file="file://$PROJECT_DIR$/test/test.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="65" column="50" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="50" />
+              <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
               <folding>
                 <element signature="e#245#311#0" expanded="false" />
                 <element signature="e#349#1595#0" expanded="false" />
                 <element signature="e#808#1172#0" expanded="false" />
                 <element signature="e#1267#1588#0" expanded="false" />
-                <element signature="e#1707#1836#0" expanded="false" />
-                <element signature="e#1972#2243#0" expanded="false" />
-                <element signature="e#2356#2598#0" expanded="false" />
+                <element signature="e#1640#2843#0" expanded="false" />
+                <element signature="e#1703#1816#0" expanded="false" />
+                <element signature="e#2688#2839#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -100,9 +112,10 @@
         <option value="$PROJECT_DIR$/test/test.txt" />
         <option value="$PROJECT_DIR$/test/failtest.txt" />
         <option value="$PROJECT_DIR$/files.js" />
-        <option value="$PROJECT_DIR$/test/test.js" />
         <option value="$PROJECT_DIR$/paintFactory.js" />
         <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/test/test.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -314,6 +327,8 @@
           <folding>
             <element signature="e#54#170#0" expanded="false" />
             <element signature="e#237#1351#0" expanded="false" />
+            <element signature="e#432#1345#0" expanded="false" />
+            <element signature="e#1413#1532#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -327,9 +342,9 @@
             <element signature="e#349#1595#0" expanded="false" />
             <element signature="e#808#1172#0" expanded="false" />
             <element signature="e#1267#1588#0" expanded="false" />
-            <element signature="e#1707#1836#0" expanded="false" />
-            <element signature="e#1972#2243#0" expanded="false" />
-            <element signature="e#2356#2598#0" expanded="false" />
+            <element signature="e#1640#2843#0" expanded="false" />
+            <element signature="e#1703#1816#0" expanded="false" />
+            <element signature="e#2688#2839#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -458,36 +473,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="65" column="50" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="50" />
-          <folding>
-            <element signature="e#245#311#0" expanded="false" />
-            <element signature="e#349#1595#0" expanded="false" />
-            <element signature="e#808#1172#0" expanded="false" />
-            <element signature="e#1267#1588#0" expanded="false" />
-            <element signature="e#1707#1836#0" expanded="false" />
-            <element signature="e#1972#2243#0" expanded="false" />
-            <element signature="e#2356#2598#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paintFactory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-          <folding>
-            <element signature="e#54#170#0" expanded="false" />
-            <element signature="e#237#1351#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67302454">
+        <state vertical-scroll-proportion="-9.148149">
           <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
           <folding>
             <element signature="e#166#375#0" expanded="false" />
@@ -500,6 +488,43 @@
             <element signature="e#2239#2362#0" expanded="false" />
             <element signature="e#2398#2442#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+          <folding>
+            <element signature="e#245#311#0" expanded="false" />
+            <element signature="e#349#1595#0" expanded="false" />
+            <element signature="e#808#1172#0" expanded="false" />
+            <element signature="e#1267#1588#0" expanded="false" />
+            <element signature="e#1640#2843#0" expanded="false" />
+            <element signature="e#1703#1816#0" expanded="false" />
+            <element signature="e#2688#2839#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paintFactory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.7777777">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="e#54#170#0" expanded="false" />
+            <element signature="e#237#1351#0" expanded="false" />
+            <element signature="e#432#1345#0" expanded="false" />
+            <element signature="e#1413#1532#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
