@@ -56,7 +56,7 @@ function processUseCase() {
     matted = [];
 
     matted = paintFactory.createEmptyBatch(matted,numberOfPaintColors)
-    console.log(matted)
+
     result = paintFactory.processBatch(numberOfPaintColors,batchs,matted);
 
     return result;
